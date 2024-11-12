@@ -5,3 +5,8 @@ export type ParsingResult = {
   duration: string;
   trackName: string;
 };
+
+export type ParseStatisticsConfig = {
+  inputRoot: string;
+  outputRoot: string;
+};

@@ -1,1 +1,1 @@
-export * from './play-statistics.utils';
+export * from './play-statistics.util';

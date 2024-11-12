@@ -1,6 +1,6 @@
 {
   "name": "@mountevarus/blackplayer-lastfm-parser",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Evan Hynes <ewbhynes@gmail.com>",
   "private": true,
   "type": "module",
@@ -10,12 +10,10 @@
     "format:check": "prettier --check src --config ./.prettierrc",
     "lint": "eslint src --ext .ts",
     "start": "bun --watch src/index.ts",
-    "start:example": "bun --watch src/index.ts -p ./example/statistics.bpstat",
+    "start:example": "bun --watch src/index.ts -p ./example/statistics.bpstat -i /storage/emulated/0/Music -o ./example/music",
     "ts-check": "tsc --noemit"
   },
   "dependencies": {
-    "csv-parse": "5.5.6",
-    "fuse.js": "7.0.0",
     "lodash": "4.17.21",
     "music-metadata": "10.6.0"
   },
