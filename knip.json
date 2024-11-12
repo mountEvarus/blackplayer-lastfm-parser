@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["src/index.ts", "build.js"],
+  "paths": {
+    "@/src/*": ["./src/*"]
+  },
+  "prettier": {
+    "config": [".prettierrc"]
+  },
+  "eslint": {
+    "config": [".eslintrc"]
+  }
+}
