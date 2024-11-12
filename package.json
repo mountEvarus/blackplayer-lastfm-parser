@@ -1,6 +1,6 @@
 {
   "name": "@mountevarus/blackplayer-lastfm-parser",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": "Evan Hynes <ewbhynes@gmail.com>",
   "private": true,
   "type": "module",
