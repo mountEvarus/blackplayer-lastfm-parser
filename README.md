@@ -10,7 +10,7 @@ I originally built this over a weekend using Node & Yarn classic. This version o
 
 ## Usage
 
-This project uses bun, to make use of high performance and easy APIs like `parseArgs`. To learn more about how to install bun, see https://bun.sh/docs/installation.
+_This project uses bun, to make use of high performance and intuitive APIs. To learn more about how to install bun, see https://bun.sh/docs/installation._
 
 The project expects 3 arguments:
 
